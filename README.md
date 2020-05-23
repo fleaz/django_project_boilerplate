@@ -9,9 +9,14 @@ This repository is a boilerplate Django project for quickly getting started.
 Steps:
 
 1. Clone/pull/download this repository
-2. Create a virtualenv with `virtualenv env` and install dependencies with `pip install -r requirements.txt`
-3. Configure your .env variables
-4. Rename your project with `python manage.py rename <yourprojectname> <newprojectname>`
+2. Create a virtualenv and install dependencies:
+   ```bash
+   python -m venv env
+   source env/bin/activate
+   python -m pip install -r requirements.txt
+   ```
+3. Copy the `.env.example` file to `.env` and configure your variables
+4. Rename your project with `./manage.py rename <yourprojectname> <newprojectname>`
 
 This project includes:
 
