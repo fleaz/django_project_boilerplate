@@ -21,5 +21,5 @@ Steps:
 This project includes:
 
 1. Settings modules for deploying with Azure
-2. Django commands for renaming your project and creating a superuser
+2. Django command to rename your project
 3. A cli tool for setting environment variables for deployment
